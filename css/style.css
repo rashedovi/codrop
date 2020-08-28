@@ -392,6 +392,9 @@ header{
    display: flex;
    align-items: center; 
 }
+.form-control {
+    padding: 12px !important;
+}
 .subscribe .btn{
     padding: 11px 70px;
     margin-bottom: 15px;
