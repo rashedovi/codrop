@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+span{
+    color: #418EBE;
+    background: none;  
+}
+header{
+    background: #37517E;
+}
+.navbar{
+    background: #37517e6b;
+}
+.navbar-brand img{
+    max-width: 150px;
+}
+.nav-link{
+    color: #fff !important;
+}
+.nav-link:hover{
+    color: #418EBE !important;
+}
+
+/* style for header-banner */
+.header-banner{
+    padding: 70px 0;
+    background: url(../images/illustrator-02.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+.header-content{
+    padding: 50px 0;
+    color: #fff;
+}
+.header-content h1{   
+    font-size: 44px;   
+    font-weight: 600;   
+    line-height: 1.6;
+}
+.header-content h1 span{   
+    color: #418EBE;
+}
+.header-content p{   
+    font-size: 14px;   
+    line-height: 2.0;  
+    margin: 40px 0;
+}
+.header-content .btn{  
+    color: #fff;
+    /* background: #418EBE; */   
+    font-size: 14px;   
+    margin-right: 20px;
+}
+.header-content .play{   
+    display: inline-flex;   
+    align-items: center;
+}
+
+.header-content .btn:hover{  
+    box-shadow: 0 .0 0 rgba(0,0,0,.0)!important;
+}
+.header-content .btn:hover i{  
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+}
+.header-content .cap{  
+    background: #418EBE;  
+    border-radius: 50px;   
+    padding: 15px 30px;   
+/* font-size: 14px; */
+}
+.header-content .btn i{  
+    font-size: 30px;   
+    margin-right: 5px;   
+    background: #418ebe3b;   
+    width: 80px;    
+    height: 80px;   
+    line-height: 80px;   
+    border-radius: 50%;
+    transition: .5s ease-in-out;
+}
+
+/* style for brand section */
+.brand{
+    padding: 80px 0;
+}
+.brand img{
+    max-width: 90%;
+}
+
+/* style for global support section */
+.global{
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+.support{
+    padding: 20px;
+}
+.support:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: .5s ease-in-out;
+}
+.support a i{
+    color: #62BDE8;  
+    font-size: 60px;
+}
+.support h3{   
+    font-size: 24px;
+    font-weight: 600; 
+    margin: 30px 0;
+}
+.support p{   
+    font-size: 15px !important;
+    line-height: 2.0;
+}
+.global-right h2{   
+    font-size: 34px;
+    font-weight: 600; 
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+.global-right p{   
+    font-size: 15px;
+    line-height: 2.0;
+    margin-bottom: 30px;
+}
+.global-right a{
+    color: #62BDE8;
+    text-decoration: none;
+    font-size: 15px;
+}
+.global-right a i{
+    margin-left: 7px;
+    transition: all .3s ease;
+}
+.global-right a:hover i{
+    margin-left: 25px;
+}
+
+/* style for trusted all section */
+.trusted{
+    padding: 140px 0;
+    background: #EAF5FC;
+    background-image: url(../images/illustrator-02.png);
+    background-position: left center;
+    background-size: 45%;
+    background-repeat: no-repeat;
+}
+.trusted h2{
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #000000ad;
+}
+.trusted p{
+    font-size: 16px;
+    line-height: 2.0;
+    color: #609bc7;
+    margin-bottom: 50px;
+}
+.trusted a{   
+    background: #50c4f1;   
+    padding: 18px 25px;    
+    border-radius: 50px;    
+    color: #fff;
+    text-decoration: none;
+}
+.trusted a:hover{   
+    background: #0d729b;
+}
+
+/* style for faqs section */
+.faqs{
+    padding: 100px 0;
+    position: relative;
+}
+.faqs h2{
+    font-size: 26px;
+    width: 75%;
+    position: sticky;
+    top: 20px;
+    bottom: 400px;
+    font-weight: 600;
+}
+.faqs a{  
+    display: block; 
+    text-decoration: none; 
+    border-bottom: 1px solid; 
+    padding: 15px 0;  
+    color: black;
+}
+.faqs a:hover{  
+    color: rgba(145, 80, 80, 0.993);
+}
+.faqs a[aria-expanded="true"] i{  
+    transform: rotate(90deg);
+}
+.faqs a i{   
+    color: #fff;   
+    background: black;  
+    /* padding: 3px 7px;   */
+    /* margin-right: 15px;  */
+    font-size: 16px;   
+    /* border-radius: 3px; */
+    transition: all .3s ease-in-out;
+}
+.faqs span{
+    background: black;
+    margin-right: 10px;
+    padding: 2px 8px;
+    border-radius: 3px;
+}
+.faqs p{
+    font-size: 14px !important;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+/* style for features section */
+.features{
+    padding: 100px 0;
+    background: #EAF5FC;
+}
+.features-heading{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.features-heading h2{  
+    font-size: 34px;   
+    margin-bottom: 20px;
+}
+.features-heading p{   
+    width: 70%;   
+    margin: 0 auto;
+}
+.feature-box{
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.feature-box:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: .5s ease-in-out;
+}
+.feature-box a i{
+    color: #62BDE8;  
+    font-size: 60px;
+}
+.feature-box h3{
+    font-size: 24px;
+    font-weight: 600; 
+    margin: 20px 0;
+}
+.feature-box p{
+    font-size: 15px !important;
+    line-height: 2.0;
+}
+
+/* style for solution section */
+.solution{
+    padding: 130px 0 30px 0;
+    background: #37517E;
+    color: #fff;
+}
+.solution .btn i{
+    color: #47B2E4;
+    font-size: 30px;   
+    margin-top: 50px;   
+    background: #9ba8bf91;   
+    width: 80px;    
+    height: 80px;   
+    line-height: 80px;   
+    border-radius: 50%;
+}
+.solution .btn i:hover{
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+}
+
+/* style for our numbers section  */
+.numbers{
+    padding: 140px 0;
+    background: #EAF5FC;
+    background-image: url(../images/illustrator-03.png);
+    background-position: right center;
+    background-size: 45%;
+    background-repeat: no-repeat;
+}
+.numbers h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #000000ad;
+}
+.numbers p{
+    font-size: 16px;
+    line-height: 2.0;
+    color: #386384;
+    margin-bottom: 50px;
+}
+.numbers h3{
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+.numbers h1{
+    font-size: 44px;
+    /* margin-bottom: 25px; */
+}
+.numbers .btn{   
+    margin-top: 40px;   
+    padding: 15px 30px;   
+    margin-right: 35px;   
+    background: transparent;   
+    color: #5EBBE7;   
+    font-size: 15px;
+}
+.numbers .btn:hover{   
+    box-shadow: 0 .0 0 rgba(0,0,0,.0)!important;
+}
+.numbers .btn i{   
+    font-size: 21px;   
+    margin-right: 5px;
+}
+.numbers .downloads{
+    border-right: 1px solid;
+    margin-right: 50px;
+}
+
+/* style for prices section */
+.prices{
+    padding: 100px 0;
+}
+.card{
+    width: 21rem;
+    border-radius: 10px;
+}
+.card:hover{
+    cursor: pointer;
+    border-top: 2px solid #47B2E4;
+    transform: scaleY(1.1);
+    transition: .4s ease-in-out;
+}
+.card-body h5{
+    font-size: 22px;
+}
+.card-body h4{   
+    font-size: 60px;
+}
+.card-body p{   
+    font-size: 20px;   
+    color: #47B2E4;
+}
+.card-body a{   
+    font-size: 15px;  
+    border: 1px solid;   
+    padding: 15px 25px;    
+    border-radius: 50px;
+}
+.list-group i{
+    color: limegreen;
+    margin-right: 10px;
+}
+
+/* style for form section */
+.subscribe{
+    padding: 100px 0;
+    background: #EAF5FC;
+}
+.form-control {
+    padding: 1.375rem .75rem !important;
+}
+.form-label{
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}
+.form-check-label{
+    font-size: 12px;
+}
+.cntr{
+   display: flex;
+   align-items: center; 
+}
+.subscribe .btn{
+    padding: 11px 70px;
+    margin-bottom: 15px;
+    background: #47B2E4;
+}
+.subscribe .btn:hover{
+    box-shadow: 0 .0 0 rgba(0,0,0,.0)!important;
+}
+.subscribe h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.subscribe p{
+    font-size: 15px;
+    line-height: 2.0;
+}
+
+/* style for footer */
+footer{
+    background: #37517E;
+    color: #fff;
+}
+.footer-content{
+    padding: 100px 0 60px 0;
+}
+.footer-content h3{   
+    font-size: 20px;   
+    margin-bottom: 30px;
+}
+.footer-content a{   
+    text-decoration: none;   
+    display: block;   
+    color: #BFC8D6;  
+    font-size: 15px;   
+    margin-bottom: 15px;
+}
+.footer-content a:hover{   
+    color: #7689a8;
+}
+.follow li a{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.follow li:first-child a{
+    background: #5D84D2;
+}
+.follow li:nth-child(2) a{
+    background: #3FC0F7;
+}
+.follow li:nth-child(3) a{
+    background: #248CC9;
+}
+.follow li:nth-child(4) a{
+    background: #EF4F43;
+}
+.follow li:last-child a{
+    background: #F7659C;
+}
+.follow a i{
+    color: #fff;
+    /* background: cadetblue;
+    padding: 12px; */
+}
+.follow a i:hover{
+    background: rgba(95, 158, 160, 0.562);
+}
+footer hr{
+    background: #BFC8D6;
+}
+.footer-bottom{
+    padding: 5px 0;
+}
+.footer-bottom p{
+    color: #BFC8D6;
+    font-size: 15px;
+}
+.footer-bottom img{
+    max-width: 100px;
+}
