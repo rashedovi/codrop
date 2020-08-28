@@ -365,6 +365,7 @@ header{
     border: 1px solid;   
     padding: 15px 25px;    
     border-radius: 50px;
+    text-decoration: none;
 }
 .list-group i{
     color: limegreen;
