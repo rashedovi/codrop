@@ -196,6 +196,7 @@ header{
     border-bottom: 1px solid; 
     padding: 15px 0;  
     color: black;
+    margin-bottom: 15px;
 }
 .faqs a:hover{  
     color: rgba(145, 80, 80, 0.993);
@@ -221,7 +222,6 @@ header{
 .faqs p{
     font-size: 14px !important;
     font-weight: 400;
-    margin-top: 16px;
 }
 
 /* style for features section */
